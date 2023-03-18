@@ -8,12 +8,10 @@ message User {
   string updated_at = 3;
   string name = 4;
   string avatar = 5;
-  string token = 6;
 }
 
 message UserRequest {
   string token = 1;
-  uint64 user_id = 2;
 }
 
 message UserResponse {
